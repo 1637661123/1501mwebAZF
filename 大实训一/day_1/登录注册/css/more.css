@@ -1,0 +1,81 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp header {
+  width: 100%;
+  height: 3.8rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.8rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ede8e5;
+}
+.warp header .left,
+.warp header .right {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.warp header .left img,
+.warp header .right img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.warp header h1 {
+  -webkit-box-flex: 1;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.warp section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.warp section .main .main-info {
+  background: #FFFFFF;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.warp section .main .main-info .info {
+  width: 100%;
+  height: 3.4rem;
+  background: none;
+  line-height: 3.4rem;
+  border-bottom: 1px solid #f9f9f9;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+.warp section .main .main-info .boult {
+  position: absolute;
+  right: 1rem;
+  top: 0.8rem;
+}
+.warp section .main .main-info .boult img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.warp section .main:nth-child(2) {
+  margin-top: 0.9rem;
+}
+.warp section .main:nth-child(3) {
+  margin-top: 0.9rem;
+}
