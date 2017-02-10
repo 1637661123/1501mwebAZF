@@ -1,0 +1,154 @@
+@import url('reset.css');
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #bfbfbf;
+  line-height: 3.5rem;
+  text-align: center;
+}
+header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+}
+header .left {
+  width: 1.2rem;
+  height: 3.5rem;
+  background: null;
+  margin-left: 1rem;
+}
+header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: null;
+}
+header .right {
+  width: 1.7rem;
+  height: 3.5rem;
+  background: null;
+  margin-right: 1rem;
+}
+header .right img {
+  width: 1.6rem;
+  height: auto;
+  background: null;
+}
+section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+section .business {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  text-align: center;
+}
+section .business ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3rem;
+  background: null;
+}
+section .business ul li {
+  width: 100%;
+  height: 3rem;
+  background: null;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  position: relative;
+}
+section .business ul li a {
+  width: 100%;
+  height: 2rem;
+  background: null;
+  display: block;
+  color: #333333;
+  border-right: 1px solid #cccccc;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
+section .business ul li .no {
+  border-right: none;
+}
+section .business ul li img {
+  width: 1rem;
+  height: auto;
+  background: null;
+  margin-left: 0.5rem;
+}
+section .business ul li .on_ul {
+  width: 100%;
+  height: 15rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: absolute;
+  left: 0;
+  bottom: -15rem;
+  display: none;
+}
+section .business ul li .on_ul li {
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  line-height: 3rem;
+}
+section .business ul li .on_ul li a {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
+section .business ul li .on_ul .no_red a {
+  color: #ff7f1d;
+}
+section .business ul .on:hover {
+  border-bottom: 1px solid #ff7f1d;
+}
+section .business ul .on:hover a {
+  color: #ff7f1d;
+}
+section .business ul .on_sin:hover .on_ul {
+  display: block;
+}
+section .content {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+section .content ul {
+  width: 100%;
+  height: 3rem;
+  background: null;
+  padding: 0.5rem 0.7rem;
+  box-sizing: border-box;
+  color: #666666;
+}
+section .content ul .left {
+  float: left;
+}
+section .content ul .left .blue {
+  color: #5054b1;
+}
+section .content ul .left .red {
+  color: #f64444;
+}
+section .content ul .right {
+  float: right;
+}
