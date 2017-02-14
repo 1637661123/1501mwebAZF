@@ -73,6 +73,10 @@ body,
   border-top-right-radius: 6px;
   color: #ff7f1d;
 }
+.warp header .centre span:hover {
+  background: #ff7f1d;
+  color: #fff9f9;
+}
 .warp nav {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
@@ -182,6 +186,15 @@ body,
 }
 .warp section .main .main-info p:nth-child(3) span:nth-child(3) {
   margin-left: 0.5rem;
+}
+.warp section .main .main-info {
+  position: relative;
+}
+.warp section .main .main-info .right {
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  color: #f64444;
 }
 .warp footer {
   display: -webkit-box;
@@ -333,6 +346,10 @@ body,
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
   color: #ff7f1d;
+}
+.reminder .header .centre span:hover {
+  background: #ff7f1d;
+  color: #fff9f9;
 }
 .reminder .nav-info {
   width: 100%;

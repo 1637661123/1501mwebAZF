@@ -150,6 +150,96 @@ body,
 .warp section .main .main-total p .orgin {
   color: #ff8838;
 }
+.warp section .main .main-plan {
+  background: #f2f2f2;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.warp section .main .main-plan .plan-top {
+  width: 100%;
+  height: 2.5rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  color: #494949;
+  border-bottom: 1px solid #f9f9f9;
+}
+.warp section .main .main-plan .plan-info {
+  padding: 0.5rem 1rem;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f9f9f9;
+  color: #bfbfbf;
+}
+.warp section .main .main-plan .plan-info p:nth-child(1) span:nth-child(3) {
+  margin-left: 1rem;
+}
+.warp section .main .main-plan .plan-info p:nth-child(3) {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.warp section .main .main-plan .plan-info p:nth-child(3) span:nth-child(1) {
+  display: inline-block;
+}
+.warp section .main .main-plan .plan-info p:nth-child(3) span:nth-child(2) {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.warp section .main .main-plan .plan-info p:nth-child(5) span:nth-child(2) {
+  color: #ff8838;
+}
+.warp section .main .main-plan .plan-info p:nth-child(5) span:nth-child(3) {
+  margin-left: 1rem;
+}
+.warp section .main .main-plan .plan-info p:nth-child(4) span:nth-child(3) {
+  margin-left: 1rem;
+}
+.warp section .main .main-plan .plan-info p:nth-child(6) {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.warp section .main .main-plan .plan-info p:nth-child(6) span:nth-child(1) {
+  display: inline-block;
+}
+.warp section .main .main-plan .plan-info p:nth-child(6) span:nth-child(2) {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.warp section .main .main-plan .plan-info .last {
+  color: #959595;
+}
+.warp section .main .main-plan .plan-info .last img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+  margin-right: 0.2rem;
+}
+.warp section .main .main-plan .plan-info .last span {
+  color: #ff9a5f;
+}
+.warp section .main .main-plan .plan-info .black span:nth-child(3) {
+  margin-left: 1rem;
+}
+.warp section .main .main-plan .bottom {
+  padding-left: 4.8rem;
+  box-sizing: border-box;
+}
+.warp section .main .main-plan .bottom a {
+  float: left;
+  padding: 0.5rem 0.2rem;
+  box-sizing: border-box;
+}
+.warp section .main .main-plan .bottom a img {
+  width: 4.4rem;
+  height: auto;
+  background: none;
+}
 .warp section .main .main-news {
   width: 100%;
   height: 2.6rem;
@@ -210,4 +300,5 @@ body,
   border-radius: 5px;
   padding: 0.1rem 0.3rem;
   box-sizing: border-box;
+  color: #333333;
 }
