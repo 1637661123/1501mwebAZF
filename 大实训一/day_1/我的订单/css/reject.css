@@ -1,0 +1,106 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #f7f7f7;
+  line-height: 3.8rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+.warp header .left {
+  width: 3rem;
+  height: auto;
+  background: none;
+}
+.warp header .left img {
+  width: 0.9rem;
+  height: auto;
+  background: none;
+}
+.warp header .right {
+  width: 3rem;
+  height: auto;
+  background: none;
+  font-size: 1.6rem;
+}
+.warp header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #262626;
+}
+.warp section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.warp section .main {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.warp section .main .main-reject {
+  width: 100%;
+  height: 2.6rem;
+  background: none;
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+}
+.warp section .main .main-content {
+  width: 100%;
+  height: 12.7rem;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  color: #d0d0d0;
+}
+.warp section .main .main-top h2 {
+  width: 100%;
+  height: 2.8rem;
+  background: none;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+}
+.warp section .main .main-top p {
+  float: left;
+  border: 1px solid #bababa;
+  margin-right: 1.1rem;
+  border-radius: 6px;
+}
+.warp section .main .main-top p img {
+  width: 6.4rem;
+  height: auto;
+  background: none;
+}
+.warp section .main .main-top p:nth-child(3) {
+  width: 6.4rem;
+  height: 6.4rem;
+  background: none;
+  text-align: center;
+  line-height: 6.4rem;
+}
+.warp section .main .main-top p:nth-child(3) img {
+  width: auto;
+  height: 3.6rem;
+  background: none;
+}

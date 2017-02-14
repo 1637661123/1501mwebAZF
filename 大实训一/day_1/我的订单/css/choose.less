@@ -1,0 +1,91 @@
+@import url(reset.css);
+html{
+    font-size: 62.5%;
+}
+.full{
+    width: 100%;
+    height: 100%;
+}
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+html,body,.warp{
+    .full;
+}
+.box(@dir){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+.warp{
+    .box(vertical);
+    header{
+        padding: 0 1rem;
+        box-sizing: border-box;
+        .box(horizontal);
+        .whb(100%,3.8rem,#f7f7f7);
+        line-height: 3.8rem;
+        border-bottom: 1px solid #e2bda1;
+        .left{
+            .whb(3rem,auto,none);
+            img{
+                .whb(0.8rem,auto,none);
+            }
+        }
+        .right{
+            .whb(3rem,auto,none);
+            font-size: 1.6rem;
+            
+        }
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 1.6rem;
+            color: #262626;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f2f2f2;
+        .main{
+            margin-top: 0.4rem;
+            .main-reject{
+                .whb(100%,2.6rem,#ffffff);
+                padding: 0 1rem;
+                box-sizing: border-box;
+                line-height: 2.6rem;
+                font-size: 1.4rem;
+                color: #6b6b6b;
+                
+            }
+            .main-content{
+                margin-top: 0.4rem;
+                .whb(100%,2.6rem,#ffffff);
+                padding: 0 1rem;
+                box-sizing: border-box;
+                line-height: 2.6rem;
+                font-size: 1.4rem;
+                color: #6b6b6b;
+                p:nth-child(1){
+                    float: left;
+                }
+                p:nth-child(2){
+                    float: right;
+                    img{
+                        .whb(1.4rem,auto,none);
+                    }
+                }
+            }
+            .main-info{
+                 margin-top: 0.1rem;
+                .whb(100%,2.6rem,#ffffff);
+                padding: 0 1rem;
+                box-sizing: border-box;
+                line-height: 2.6rem;
+                font-size: 1.4rem;
+                color: #6b6b6b;
+            }
+        }
+    }
+}    

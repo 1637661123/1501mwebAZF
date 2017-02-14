@@ -1,0 +1,101 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #f7f7f7;
+  line-height: 3.8rem;
+  border-bottom: 1px solid #e2bda1;
+}
+.warp header .left {
+  width: 3rem;
+  height: auto;
+  background: none;
+}
+.warp header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.warp header .right {
+  width: 3rem;
+  height: auto;
+  background: none;
+  font-size: 1.6rem;
+}
+.warp header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #262626;
+}
+.warp section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.warp section .main {
+  margin-top: 0.4rem;
+}
+.warp section .main .main-reject {
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+  color: #6b6b6b;
+}
+.warp section .main .main-content {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+  color: #6b6b6b;
+}
+.warp section .main .main-content p:nth-child(1) {
+  float: left;
+}
+.warp section .main .main-content p:nth-child(2) {
+  float: right;
+}
+.warp section .main .main-content p:nth-child(2) img {
+  width: 1.4rem;
+  height: auto;
+  background: none;
+}
+.warp section .main .main-info {
+  margin-top: 0.1rem;
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+  color: #6b6b6b;
+}
